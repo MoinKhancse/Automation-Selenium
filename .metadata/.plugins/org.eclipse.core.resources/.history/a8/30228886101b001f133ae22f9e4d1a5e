@@ -1,0 +1,16 @@
+package FastSelenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestSelenium {
+	static WebDriver driver;
+	public static void SetBrowser() {
+		System.setProperty("webdriver", "Chrome");
+		driver = new ChromeDriver();
+		
+		if(driver.equels(Chrome){})
+	}
+
+}
+

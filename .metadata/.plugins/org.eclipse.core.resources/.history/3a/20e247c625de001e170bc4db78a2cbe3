@@ -1,0 +1,19 @@
+package MyFirstTest;
+
+import org.openqa.selenium.WebDriver;
+
+public class LinksCountPage {
+	WebDriver driver;
+
+	public static void main(String[] args) {
+		WebBrowser();
+		RunTest();
+	}
+	public static void WebBrowser() {
+		
+	}
+	public static void RunTest() {
+		
+	}
+
+}

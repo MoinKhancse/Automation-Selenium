@@ -1,0 +1,13 @@
+package TestSelenium;
+
+import org.openqa.selenium.By;
+
+public class RunTest extends BaseDriver{
+	public void regation() {
+		driver.manage().window().maximize();
+		driver.get("https://www.daraz.com.bd");
+		driver.findElement(By.xpath("")).click();
+		
+	}
+
+}

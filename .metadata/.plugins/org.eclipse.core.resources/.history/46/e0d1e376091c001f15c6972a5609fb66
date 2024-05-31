@@ -1,0 +1,9 @@
+package TestSelenium;
+
+public class RunTest extends BaseDriver{
+	public void regation() {
+		driver.get("https://www.daraz.com.bd");
+		
+	}
+
+}

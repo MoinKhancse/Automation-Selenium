@@ -1,0 +1,9 @@
+package FastSelenium;
+
+public class TestSelenium {
+	public static void SetBrowser() {
+		
+	}
+
+}
+

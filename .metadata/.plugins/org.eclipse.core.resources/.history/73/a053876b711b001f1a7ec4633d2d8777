@@ -1,0 +1,21 @@
+package TestSelenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FastClassSelenium {
+	WebDriver driver;
+	
+	public void SetBrowser() {
+		String browser_name = System.getProperty("browser", "chrome");
+		
+		if(browser_name.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver =new ChromeDriver();
+		}
+	}
+	
+
+}
